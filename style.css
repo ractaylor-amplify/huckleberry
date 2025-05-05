@@ -10,3 +10,65 @@ body {
 }
 
 /* Add styles here! */
+header {
+  background-color: #fff;
+}
+
+main {
+  background-color: #666;
+}
+
+header, .card, .indented-heading {
+  border-bottom: 8px solid #999;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+}
+
+header .max-width-wrapper, main .max-width-wrapper {
+  margin: 0 auto;
+}
+
+main .max-width-wrapper {
+  padding: 72px 0;
+}
+
+.intro-chunk, .card {
+  padding: 24px;
+}
+
+.intro-chunk {
+  margin: 48px 0;
+  width: 415px;
+}
+
+.title {
+  margin: 24px 0 48px 0;
+}
+
+.indented-heading {
+  padding: 16px 32px 15px;
+  border-color: 8px solid #CC9900;
+  background-color: #FFBF00;
+  margin: 0;
+  margin-top: -16px;
+  margin-left: -32px;
+  width: fit-content;
+}
+
+strong {
+  color: #009966;
+}
+
+.card {
+  background-color: #fff;
+}
+
+.card p:first-of-type {
+  margin-top: 24px;
+}
+
+.card p:last-of-type {
+  margin-bottom: 0;
+}
