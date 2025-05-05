@@ -24,9 +24,6 @@ header, .card, .indented-heading {
 
 .max-width-wrapper {
   max-width: 800px;
-}
-
-header .max-width-wrapper, main .max-width-wrapper {
   margin: 0 auto;
 }
 
